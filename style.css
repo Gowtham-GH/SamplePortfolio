@@ -1,0 +1,75 @@
+*{
+    padding:0;
+    margin:0
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+}
+.Container{
+    Padding:30px;
+}
+
+.Title,.Footer{
+    Color:white;
+    background-color:coral;
+    Padding:5px
+}
+.Title_Name{
+    font-size: 60px;
+}
+.Title_Role{
+    font-size:30px;
+    margin-top: 5px;
+}
+.Title_Contact{
+    margin: 8px;
+    padding:5px;
+    text-decoration: none;
+    background-color: chocolate;
+    display: inline-block;
+    color:white
+}
+.MyInterests{
+    background-color: #ea8d4f;
+    height:200px;
+    Width:300px;
+    display: inline-block;
+    padding:10px;
+    border-radius: 25px;
+    vertical-align: top; 
+}
+
+.MyProjects{
+    background-color: #ea8d4f;
+    display: inline-block;
+    Width:500px;
+    height:200px;
+    Padding:10px;
+    border-radius: 25px; 
+    vertical-align: top;
+}
+.AboutMe,.MyInterests,.MyProjects{
+    margin:5px;
+}
+.MyProjects_list{
+    list-style: none;
+}
+.MyInterests_list{
+    margin-left: 20px;
+    padding:5px;
+    list-style: none;
+}
+.ContactForm{
+    align-items: center;
+}
+.input_Name,.input_Email,.input_Message{
+    margin-top: 10px;
+    padding:10px;
+    border:none;
+    border-bottom: solid black 1px;
+    align-items: center;
+    
+}
